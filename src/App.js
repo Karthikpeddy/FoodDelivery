@@ -14,8 +14,6 @@ function App() {
       <Restaurants />
       <Contact />
     </div>
-    
- 
   );
 }
 
