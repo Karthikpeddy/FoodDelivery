@@ -1,7 +1,7 @@
-import Navbar from "./components/navbar";
-import Contact from "./components/contact";
-import About from "./components/about";
-import Home from "./components/home";
+import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
+import About from "./components/About";
+import Home from "./components/Home";
 import "./App.css";
 import Restaurants from "./components/Restaurants";
 
