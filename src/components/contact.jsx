@@ -1,4 +1,4 @@
-const Home = () => {
+const Contact = () => {
   return (
     <div name="contact" className="w-full h-screen pt-20">
       This is contact
@@ -6,4 +6,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Contact;
