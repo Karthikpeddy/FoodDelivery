@@ -4,16 +4,16 @@ import Logo from "../assets/cupcakee.png";
 
 const Navbar = () => {
   return (
-    <div className=" fixed flex justify-between pt-5 w-full">
-      <div className="top-0 left-0 ml-10 pb-20 ">
+    <div className=" fixed flex pt-5 w-full justify-between">
+      <div className="top-0 left-0 ml-10 pb-10 mr-10">
         <img
           src={Logo}
           alt="cupcake icon"
-          className="w-14 h-14 object-cover text-orange-600"
+          className="w-14 h-14 object-cover text-orange-600 "
         />
       </div>
-      <div className="flex justify-evenly mr-20">
-        <ul className="list-none flex flex-row space-x-4 top-0 right-0 pb-20">
+      <div className="flex  mr-100 rounded-full bg-blue shadow-md  h-10 p-4  items-center gap-20">
+        <ul className="list-none flex flex-row space-x-4 top-0 right-0  ">
           <li>
             <Link
               to="home"
