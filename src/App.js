@@ -1,17 +1,19 @@
-import Navbar from './components/navbar';
-import './App.css';
-import {BrowserRoutes , Routes , Route} from 'react-router-dom';
+import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
+import About from "./components/About";
+import Home from "./components/Home";
+import "./App.css";
+import Restaurants from "./components/Restaurants";
 
 function App() {
   return (
-    <BrowserRoutes>
-      <Routes>
-        <Route path='/' element={ <div>
-          <Navbar />
-        </div> }></Route>
-      </Routes>
-        
-    </BrowserRoutes>
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Restaurants />
+      <Contact />
+    </div>
     
  
   );
