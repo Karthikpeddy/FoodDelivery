@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from "react-scroll";
-import Logo from "../assets/cupcakee.png";
+import Logo from "../assets/fdlogo.png";
 import { motion } from "framer-motion";
-import { FaShoppingCart, FaUser } from "react-icons/fa";
+// import { FaShoppingCart, FaUser } from "react-icons/fa";
+import Profile from "../assets/profile.png";
+
+import Cart from "../assets/3dshoppingcart.png";
 
 const Navbar = () => {
   return (
@@ -76,10 +79,15 @@ const Navbar = () => {
           animate={{ y: 0, opacity: 1 }}
           className="w-33 h-29"
         >
-          <FaShoppingCart
+          {/* <FaShoppingCart
             size={32}
             color="#ea580c"
             className="mr-10 cursor-pointer"
+          /> */}
+          <img
+            src={Cart}
+            alt=""
+            className="w-14 h-14 object-cover text-orange-600"
           />
         </motion.div>
         <motion.div
@@ -89,7 +97,8 @@ const Navbar = () => {
           animate={{ y: 0, opacity: 1 }}
           className="w-33 h-29 flex flex-row"
         >
-          <FaUser size={30} color="#ea580c" className="mr-10 cursor-pointer" />
+          <img src={Profile} alt="" className="w-11 h-11  text-orange-600" />
+          {/* <FaUser size={30} color="#ea580c" className="mr-10 cursor-pointer" /> */}
         </motion.div>
       </div>
     </div>
